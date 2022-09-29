@@ -50,6 +50,9 @@ sleepmode
 https://www.mischianti.org/2021/03/10/esp32-power-saving-modem-and-light-sleep-2/
 
 
+## Améliorations directement possibles par ordre de difficulté
 
+- changer les fils du ventilateur et de la pompe pour des fils plus gros et peut-être plus étanches
+- changer les transistors npn pour des transistors NMOS : ça consomme moins
 
 
