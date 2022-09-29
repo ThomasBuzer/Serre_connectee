@@ -25,9 +25,11 @@ Connecter l'**alimentation** de l'ESP32.
 
 Débrancher l'alimentation et la rebrancher.
 
-## Programme
+## Programmes
 
-Le programme a utiliser / modifier est le "final_version.ino"
+Le programme a utiliser / modifier pour l'ESP32 est le "final_version.ino". Il est sectionné en plusieurs fichiers contenant les différentes sous fonctions.
+
+Le fichier (codes.gs)[code.gs] est le code google script qui communique avec l'ESP pour remplir le ggsheet et enregistrer les images. Ce script doit être déployer et le code de déploiement (AKfycbx-9i9Zu6WyBMAfQey_Hle-L-dqW94WVCNc_f8sVzF-vi08NC7xyscnGzp_XL6DOj6w par exemple) doit être insérer dans le programme .ino dans le fichier global_variables.
 
 
 ## liste des inspirations
