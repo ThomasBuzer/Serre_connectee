@@ -25,6 +25,11 @@ Connecter l'**alimentation** de l'ESP32.
 
 Débrancher l'alimentation et la rebrancher.
 
+## Programme
+
+Le programme a utiliser / modifier est le "final_version.ino"
+
+
 ## liste des inspirations
 
 sauvegarde des images dans ggdrive
