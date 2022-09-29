@@ -52,6 +52,7 @@ function doGet(e){
     jo.TIMELAPSE = sheet_conf.getRange('B12').getValue();
     jo.FREQUENCE_TIMELAPSE = sheet_conf.getRange('B13').getValue();
     jo.FORCE_PHOTO = sheet_conf.getRange('B14').getValue();
+    jo.LED_PHOTO = sheet_conf.getRange('B15').getValue();
 
 
     result = JSON.stringify(jo);
