@@ -54,5 +54,5 @@ https://www.mischianti.org/2021/03/10/esp32-power-saving-modem-and-light-sleep-2
 
 - changer les fils du ventilateur et de la pompe pour des fils plus gros et peut-être plus étanches
 - changer les transistors npn pour des transistors NMOS : ça consomme moins
-
+- ajouter un ads1115 pour la mesure de luminosité et d'autres ? (c'est compliqué parce que les pins de base sur l'ESP sont déjà pris)
 
