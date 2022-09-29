@@ -79,7 +79,10 @@ void saveCapturedImage() {
   String address = myDomain+myScript;
   if (client.connect(myDomain, 443)) {
     Serial.println("Connection successful");
-    
+
+    //allumage de la LED pour la photo
+    digitalWrite(whiteLed, LED_PHOTO);
+    delay(10);
     camera_fb_t * fb = NULL;
     fb = esp_camera_fb_get();  
     if(!fb) {
@@ -88,6 +91,9 @@ void saveCapturedImage() {
       ESP.restart();
       return;
     }
+    //Extinction de la LED
+    digitalWrite(whiteLed, LOW);
+    
   
     char *input = (char *)fb->buf;
     char output[base64_enc_len(3)];

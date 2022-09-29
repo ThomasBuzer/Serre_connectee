@@ -57,6 +57,7 @@ void updateParameters(){
   TIMELAPSE = doc["TIMELAPSE"];
   FREQUENCE_TIMELAPSE = doc["FREQUENCE_TIMELAPSE"];
   FORCE_PHOTO = doc["FORCE_PHOTO"];
+  LED_PHOTO = doc["LED_PHOTO"];
 
   Serial.print("Variables recieved are :");
   Serial.print(DUREE_DEEPSLEEP);
@@ -84,6 +85,8 @@ void updateParameters(){
   Serial.print(FREQUENCE_TIMELAPSE);
   Serial.print("; ");
   Serial.println(FORCE_PHOTO);
+  Serial.print("; ");
+  Serial.println(LED_PHOTO);
 
 }
 

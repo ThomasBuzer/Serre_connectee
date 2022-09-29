@@ -16,6 +16,7 @@ extern int HEURE_AROSAGE;
 extern int TIMELAPSE;
 extern int FREQUENCE_TIMELAPSE;
 extern int FORCE_PHOTO;
+extern int LED_PHOTO;
 
 extern int redLed;
 extern int whiteLed;

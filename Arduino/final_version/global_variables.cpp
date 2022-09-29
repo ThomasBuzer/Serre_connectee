@@ -13,6 +13,7 @@ int HEURE_AROSAGE;
 int TIMELAPSE;
 int FREQUENCE_TIMELAPSE;
 int FORCE_PHOTO;
+int LED_PHOTO;
 
 int redLed = 33;
 int whiteLed = 4;
@@ -22,4 +23,4 @@ int sensorPower = 2;
 int lightPin = 14;
 int dhtPin = 15;
 
-String GOOGLE_SCRIPT_ID = "AKfycbx-9i9Zu6WyBMAfQey_Hle-L-dqW94WVCNc_f8sVzF-vi08NC7xyscnGzp_XL6DOj6w";    // change Gscript ID
+String GOOGLE_SCRIPT_ID = "AKfycbwszFNGswHs3zNiTl-HkM1p3AgxD0_O8TumCzW3lgq2pPJVpEhR-lWcySEVYnKy1w";    // change Gscript ID
