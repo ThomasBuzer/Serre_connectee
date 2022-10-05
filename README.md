@@ -1,5 +1,24 @@
 # Serre_connectee
 
+## installation de la carte ESP32 dans l'IDE et librairies à installer
+
+1 installer les cartes ESP32 [ici](https://www.upesy.fr/blogs/tutorials/install-esp32-on-arduino-ide-complete-guide)
+
+La carte est L'"AI Thinker ESP32-CAM"
+Les paramètrs sont ceux par défaut.
+
+2 librairies
+
+Pour installer les librairies, aller dans **Outils** > **Gérer les bibliothèques**
+Attention, la vesrison de la bibliothèque peut avoir une incidence sur le fonctionnement (on peut sélectionner la version à l'installation.
+
+les deux librairies à installer sont celles sur la photo suivante :
+
+<div align="center">
+<img src="./images/biblis.jpg" width="400">
+</div>
+
+
 ## Flash un nouveau programme 
 
 **Débrancher l'alimentation** de la carte.
