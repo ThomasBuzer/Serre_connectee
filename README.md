@@ -12,7 +12,7 @@ Les paramètrs sont ceux par défaut.
 Pour installer les librairies, aller dans **Outils** > **Gérer les bibliothèques**
 Attention, la vesrison de la bibliothèque peut avoir une incidence sur le fonctionnement (on peut sélectionner la version à l'installation.
 
-les deux librairies à installer sont celles sur la photo suivante :
+les librairies à installer sont les deux premières sur la photo suivante (avec les versions !) :
 
 <div align="center">
 <img src="./images/biblis.jpg" width="400">
